@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 40px;
+}
+.header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 70% 30%;
+    margin-bottom: 20px;
+}
+
+.search {
+    background: linear-gradient(to right, rgb(118, 207, 118), green, red);
+    padding: 14px 10px;
+    box-shadow: 10px 10px 2px 2px rgb(54, 92, 53);
+    border-radius: 5px;
+}
+input {
+    padding: 4px;
+}
+#search {
+    padding: 4px;
+    background: rgb(4, 53, 49);
+    color: white;
+}
+.menu {
+    background: linear-gradient(rgb(211, 211, 142), rgb(241, 241, 36));
+    padding: 10px 25px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: darkslateblue;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+
+}
+
+.menu:hover, .menu a.active{
+    font-size: 25px;
+    font-weight: bold;
+    color: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(11, 43, 102);
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+#contact {
+    border-right: none;
+}
+.contents {
+    background: rgb(118, 207, 118);
+    color: rgb(4, 53, 49);
+    padding: 50px 30px 30px;
+    border-radius: 8px;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+.now{
+    color: rgb(99, 8, 46);
+}
+
+.sidebar{
+    height: 450px;
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 20px;
+    padding: 30px 30px;
+    margin: 30px;
+    background-color: white;
+    
+    
+}
+
+.sidebar h3{
+    color: darksalmon;
+    font-size: 30px;
+
+}
+.sidebar ul{
+    padding-top: 15px;
+}
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    list-style-image: url(images/arrow-77.png);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#rightsidebar ul li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    background: url(images/checkmark-80.png) no-repeat left center; 
+    
+
+}
+
+.sidebar ul li a{
+    text-decoration:none;
+    font-size: 20px;
+    color: rgb(49, 12, 92);
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a:active{
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: 25px;
+    font-weight: solid;
+
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
+}
+.footer{
+    height: 30px;
+    background: linear-gradient(rgb(96, 209, 51), rgb(63, 97, 211));
+    padding: 10px;
+}
